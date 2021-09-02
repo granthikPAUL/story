@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-01T18:49:32 IST" name="Suite" finished-at="2021-09-01T18:51:36 IST" duration-ms="124264">
+    <groups>
+    </groups>
+    <test started-at="2021-09-01T18:49:32 IST" name="Test" finished-at="2021-09-01T18:51:36 IST" duration-ms="124264">
+      <class name="HomePageTestCases.RiskPageTestCases">
+        <test-method is-config="true" signature="openBrowserTab()[pri:0, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:48:58 IST" name="openBrowserTab" finished-at="2021-09-01T18:49:32 IST" duration-ms="33291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTab -->
+        <test-method signature="Homepage()[pri:0, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:49:32 IST" name="Homepage" finished-at="2021-09-01T18:49:40 IST" duration-ms="8864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="openProject()[pri:1, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:49:40 IST" name="openProject" finished-at="2021-09-01T18:49:48 IST" depends-on-methods="HomePageTestCases.RiskPageTestCases.Homepage" duration-ms="7549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProject -->
+        <test-method signature="SaveButtonWithValidData()[pri:2, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:49:48 IST" name="SaveButtonWithValidData" finished-at="2021-09-01T18:50:34 IST" depends-on-methods="HomePageTestCases.RiskPageTestCases.openProject" duration-ms="46255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveButtonWithValidData -->
+        <test-method signature="SaveButtonWithInValidData()[pri:3, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:50:34 IST" name="SaveButtonWithInValidData" finished-at="2021-09-01T18:51:36 IST" depends-on-methods="HomePageTestCases.RiskPageTestCases.openProject" duration-ms="61311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveButtonWithInValidData -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:51:36 IST" name="endReport" finished-at="2021-09-01T18:51:36 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="closeBrowserWindow()[pri:0, instance:HomePageTestCases.RiskPageTestCases@5f9b2141]" started-at="2021-09-01T18:51:36 IST" name="closeBrowserWindow" finished-at="2021-09-01T18:51:36 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserWindow -->
+      </class> <!-- HomePageTestCases.RiskPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
